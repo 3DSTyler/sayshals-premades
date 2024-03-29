@@ -1,24 +1,33 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "sayshals-premades",
+  "title": "Sayshal's Premade Automations",
+  "description": "A collection of automated feats, items, and spells for Foundry VTT & D&D5e.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
+    "minimum": 11,
+    "verified": 11,
     "maximum": 11
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Sayshal",
+      "url": "https://github.com/3DSTyler",
+      "discord": "sayshal"
     }
   ],
   "relationships": {
-    "systems": [],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.2",
+          "verified": "3.0.4"
+        }
+      }
+    ],
     "requires": []
   },
   "esmodules": [
@@ -37,15 +46,16 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "changelog": "https://github.com/3DSTyler/sayshals-premades/blob/master/CHANGELOG.md",
+  "url": "https://github.com/3DSTyler/sayshals-premades/",
+  "manifest": "https://github.com/3DSTyler/sayshals-premades/release/latest/download/module.json",
+  "download": "https://github.com/3DSTyler/sayshals-premades/release/latest/download/module.zip",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": ""
     }
   ]
 }
